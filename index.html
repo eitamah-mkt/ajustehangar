@@ -24,15 +24,15 @@
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Hangar Creative Hub",
-  "legalName": "Hangar Creative Hub LTDA",
-  "taxID": "55.373.242/0001-12",
   "url": "https://www.hangarcreativehub.com/",
   "logo": "https://www.hangarcreativehub.com/images/logo-hangar.png",
   "description": "Agência de branding, jornalismo, conteúdo, performance e design.",
   "sameAs": ["https://www.instagram.com/hangarcreativehub/"],
+  "legalName": "Hangar Creative Hub LTDA",
+  "taxID": "55.373.242/0001-12",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Rua Frei Mansueto, 1289, Varjota",
+    "streetAddress": "Rua Frei Mansueto, 1289 - Varjota",
     "addressLocality": "Fortaleza",
     "addressRegion": "CE",
     "postalCode": "60175-157",
@@ -47,10 +47,11 @@
 <header class="topbar">
     <a href="#topo" class="topbar-logo">
         <img src="images/logo-hangar.png" alt="Hangar Creative Hub">
-        <span>HANGAR</span>
+        <span>HANGAR CREATIVE HUB</span>
     </a>
 
     <nav class="topbar-nav">
+        <a href="#sobre" data-i18n="nav.sobre">Sobre</a>
         <a href="#servicos" data-i18n="nav.servicos">Serviços</a>
         <a href="#cases" data-i18n="nav.cases">Cases</a>
         <a href="#metodo" data-i18n="nav.metodo">Método</a>
@@ -74,9 +75,7 @@
 
     <!-- HERO / CARTÃO DE LINKS -->
     <section class="hero">
-        <div class="hero-runway" aria-hidden="true">
-            <i class="fas fa-paper-plane hero-plane" aria-hidden="true"></i>
-        </div>
+        <div class="hero-runway" aria-hidden="true"></div>
         <div class="hero-inner">
             <img src="images/logo-hangar.png" alt="Hangar Creative Hub" class="profile-pic">
 
@@ -128,7 +127,7 @@
                 </a>
             </div>
 
-            <a class="scroll-cue" href="#servicos" aria-label="Rolar para saber mais">
+            <a class="scroll-cue" href="#sobre" aria-label="Rolar para saber mais">
                 <span data-i18n="hero.scroll">conheça a agência</span>
                 <i class="fas fa-chevron-down"></i>
             </a>
@@ -159,6 +158,13 @@
             <span data-i18n="board.10">JORNALISMO DIGITAL</span>
             <span>·</span>
         </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="section section-light sobre">
+        <p class="eyebrow" data-i18n="sobre.eyebrow">TRIPULAÇÃO</p>
+        <h2 data-i18n="sobre.titulo">Quem está na cabine</h2>
+        <p class="section-lead" data-i18n="sobre.lead">A Hangar Creative Hub nasceu para ser o hub que reúne comunicação e tecnologia num só lugar, evitando que empresas precisem contratar vários fornecedores soltos para contar a própria história. O time reúne jornalismo, design, fotografia e performance sob um mesmo método, para que cada entrega saia coerente com a anterior.</p>
     </section>
 
     <!-- SERVIÇOS -->
@@ -216,6 +222,20 @@
         <p class="eyebrow" data-i18n="cases.eyebrow">DIÁRIO DE BORDO</p>
         <h2 data-i18n="cases.titulo">Cases que já voaram</h2>
         <p class="section-lead" data-i18n="cases.lead">Um recorte de projetos reais, com problema, estratégia, execução e resultado — do jeito que quem contrata precisa ver.</p>
+
+        <div class="case-carousel case-carousel-hero" data-autoplay="4000">
+            <div class="case-carousel-track">
+                <div class="case-slide"><img src="images/cases/edro-aplicacao.jpg" loading="lazy" alt="Identidade EDRO aplicada em frota, uniformes, cartões e crachás"></div>
+                <div class="case-slide"><img src="images/cases/gastronomia-marca.jpg" loading="lazy" alt="Identidade visual criada para a chef Marie Anne Bauer"></div>
+                <div class="case-slide"><img src="images/cases/gastronomia-instagram.jpg" loading="lazy" alt="Perfil e publicação no Instagram da chef Marie Anne Bauer"></div>
+                <div class="case-slide"><img src="images/cases/performance-insights.jpg" loading="lazy" alt="Insights de alcance de publicações — 49,4 mil, 69,8 mil e 63,3 mil contas alcançadas"></div>
+                <div class="case-slide"><img src="images/cases/jornalismo-entrevista.jpg" loading="lazy" alt="Entrevista em vídeo produzida com técnica jornalística"></div>
+                <div class="case-slide"><img src="images/cases/doc-antes-depois.jpg" loading="lazy" alt="Fachada antes e depois do trabalho da Hangar"></div>
+            </div>
+            <button type="button" class="case-nav prev" aria-label="Imagem anterior"><i class="fas fa-chevron-left"></i></button>
+            <button type="button" class="case-nav next" aria-label="Próxima imagem"><i class="fas fa-chevron-right"></i></button>
+            <div class="case-dots"></div>
+        </div>
 
         <div class="cases-grid">
             <article class="case-card">
@@ -314,56 +334,26 @@
         </ol>
     </section>
 
-    <!-- SOBRE -->
-    <section id="sobre" class="section section-dark sobre">
-        <p class="eyebrow" data-i18n="sobre.eyebrow">TRIPULAÇÃO</p>
-        <h2 data-i18n="sobre.titulo">Quem está na cabine</h2>
-        <p class="section-lead" data-i18n="sobre.lead">A Hangar Creative Hub nasceu para ser o hub que reúne comunicação e tecnologia num só lugar, evitando que empresas precisem contratar vários fornecedores soltos para contar a própria história. O time reúne jornalismo, design, fotografia e performance sob um mesmo método, para que cada entrega saia coerente com a anterior.</p>
-        <p class="section-lead" data-i18n="sobre.lead2">Atendemos empresas com ambição interestadual e internacional, por isso o site e o atendimento já nascem em português, inglês e espanhol.</p>
-    </section>
-
-    <!-- DEPOIMENTOS -->
-    <section id="depoimentos" class="section section-light">
-        <p class="eyebrow" data-i18n="depo.eyebrow">RELATO DE PASSAGEIROS</p>
-        <h2 data-i18n="depo.titulo">O que dizem os clientes</h2>
-        <div class="cards-grid testimonials">
-            <blockquote class="testimonial">
-                <p data-i18n="depo1.texto">"[Inserir depoimento real de cliente sobre o trabalho da Hangar aqui.]"</p>
-                <cite data-i18n="depo1.autor">— [Nome do cliente, empresa]</cite>
-            </blockquote>
-            <blockquote class="testimonial">
-                <p data-i18n="depo2.texto">"[Inserir depoimento real de cliente sobre o trabalho da Hangar aqui.]"</p>
-                <cite data-i18n="depo2.autor">— [Nome do cliente, empresa]</cite>
-            </blockquote>
-            <blockquote class="testimonial">
-                <p data-i18n="depo3.texto">"[Inserir depoimento real de cliente sobre o trabalho da Hangar aqui.]"</p>
-                <cite data-i18n="depo3.autor">— [Nome do cliente, empresa]</cite>
-            </blockquote>
-        </div>
-    </section>
-
     <!-- CONTATO -->
-    <section id="contato" class="section section-dark contato">
-        <div class="contato-inner">
-            <p class="eyebrow" data-i18n="contato.eyebrow">TORRE DE CONTROLE</p>
-            <h2 data-i18n="contato.titulo">Pronto para decolar?</h2>
-            <p class="section-lead" data-i18n="contato.lead">Fale com o time e conte o que sua empresa precisa comunicar.</p>
-            <div class="buttons-container narrow">
-                <a href="https://api.whatsapp.com/send?phone=558588670785&text=Olá! Gostaria de falar com a Cap da Hangar Creative Hub."
-                   class="link-button cap" target="_blank" rel="noopener noreferrer">
-                    <div class="link-button-content">
-                        <i class="far fa-user"></i>
-                        <span class="button-text" data-i18n="btn.cap">Fale com a Cap</span>
-                    </div>
-                </a>
-                <a href="https://api.whatsapp.com/send?phone=5511998933401&text=Olá! Quero falar com o time da Hangar Creative Hub e voar mais alto."
-                   class="link-button" target="_blank" rel="noopener noreferrer">
-                    <div class="link-button-content">
-                        <i class="fas fa-rocket"></i>
-                        <span class="button-text" data-i18n="btn.team">Fale com o time para voar mais alto</span>
-                    </div>
-                </a>
-            </div>
+    <section id="contato" class="section section-light contato">
+        <p class="eyebrow" data-i18n="contato.eyebrow">TORRE DE CONTROLE</p>
+        <h2 data-i18n="contato.titulo">Pronto para decolar?</h2>
+        <p class="section-lead" data-i18n="contato.lead">Fale com o time e conte o que sua empresa precisa comunicar.</p>
+        <div class="buttons-container narrow">
+            <a href="https://api.whatsapp.com/send?phone=558588670785&text=Olá! Gostaria de falar com a Cap da Hangar Creative Hub."
+               class="link-button cap" target="_blank" rel="noopener noreferrer">
+                <div class="link-button-content">
+                    <i class="far fa-user"></i>
+                    <span class="button-text" data-i18n="btn.cap">Fale com a Cap</span>
+                </div>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=5511998933401&text=Olá! Quero falar com o time da Hangar Creative Hub e voar mais alto."
+               class="link-button" target="_blank" rel="noopener noreferrer">
+                <div class="link-button-content">
+                    <i class="fas fa-rocket"></i>
+                    <span class="button-text" data-i18n="btn.team">Fale com o time para voar mais alto</span>
+                </div>
+            </a>
         </div>
     </section>
 
@@ -380,13 +370,13 @@
             <h4 data-i18n="footer.institucional">Institucional</h4>
             <p data-i18n="footer.razaosocial">Razão social: Hangar Creative Hub LTDA</p>
             <p data-i18n="footer.cnpj">CNPJ: 55.373.242/0001-12</p>
-            <p data-i18n="footer.endereco">Endereço: Rua Frei Mansueto, 1289, Varjota, Fortaleza — CE, 60175-157</p>
-            <p data-i18n="footer.socia">Sócia-administradora: Marcilia Martins Cavalcante</p>
+            <p data-i18n="footer.endereco">Endereço: Rua Frei Mansueto, 1289 - Varjota, Fortaleza - CE, 60175-157</p>
         </div>
         <div>
             <h4 data-i18n="footer.contato">Contato</h4>
-            <p data-i18n="footer.email">E-mail: [inserir e-mail de contato]</p>
-            <p><a href="tel:+558588670785">(85) 8867-0785</a></p>
+            <p data-i18n="footer.email">E-mail: contact@hangarcreativehub.com</p>
+            <p><a href="https://api.whatsapp.com/send?phone=558588670785&text=Olá! Gostaria de falar com a Cap da Hangar Creative Hub." target="_blank" rel="noopener noreferrer">WhatsApp (Cap): (85) 8867-0785</a></p>
+            <p><a href="https://api.whatsapp.com/send?phone=5511998933401&text=Olá! Quero falar com o time da Hangar Creative Hub e voar mais alto." target="_blank" rel="noopener noreferrer">WhatsApp (Time): (11) 99893-3401</a></p>
             <p><a href="https://www.instagram.com/hangarcreativehub/" target="_blank" rel="noopener noreferrer">Instagram</a></p>
         </div>
         <div>
@@ -394,7 +384,7 @@
             <p><a href="privacidade.html" data-i18n="footer.privacidade">Política de Privacidade e Cookies</a></p>
         </div>
     </div>
-    <p class="footer-copy" data-i18n="footer.copy">© 2026 Hangar Creative Hub LTDA — CNPJ 55.373.242/0001-12. Todos os direitos reservados.</p>
+    <p class="footer-copy" data-i18n="footer.copy">© 2026 Hangar Creative Hub. Todos os direitos reservados.</p>
 </footer>
 
 <script src="script.js"></script>

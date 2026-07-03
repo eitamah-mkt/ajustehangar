@@ -5,6 +5,7 @@
 
 const translations = {
     pt: {
+        "nav.sobre": "Sobre",
         "nav.servicos": "Serviços",
         "nav.cases": "Cases",
         "nav.metodo": "Método",
@@ -105,7 +106,6 @@ const translations = {
         "sobre.eyebrow": "TRIPULAÇÃO",
         "sobre.titulo": "Quem está na cabine",
         "sobre.lead": "A Hangar Creative Hub nasceu para ser o hub que reúne comunicação e tecnologia num só lugar, evitando que empresas precisem contratar vários fornecedores soltos para contar a própria história. O time reúne jornalismo, design, fotografia e performance sob um mesmo método, para que cada entrega saia coerente com a anterior.",
-        "sobre.lead2": "Atendemos empresas com ambição interestadual e internacional, por isso o site e o atendimento já nascem em português, inglês e espanhol.",
 
         "depo.eyebrow": "RELATO DE PASSAGEIROS",
         "depo.titulo": "O que dizem os clientes",
@@ -124,16 +124,16 @@ const translations = {
         "footer.institucional": "Institucional",
         "footer.razaosocial": "Razão social: Hangar Creative Hub LTDA",
         "footer.cnpj": "CNPJ: 55.373.242/0001-12",
-        "footer.endereco": "Endereço: Rua Frei Mansueto, 1289, Varjota, Fortaleza — CE, 60175-157",
-        "footer.socia": "Sócia-administradora: Marcilia Martins Cavalcante",
+        "footer.endereco": "Endereço: Rua Frei Mansueto, 1289 - Varjota, Fortaleza - CE, 60175-157",
         "footer.contato": "Contato",
-        "footer.email": "E-mail: [inserir e-mail de contato]",
+        "footer.email": "E-mail: contact@hangarcreativehub.com",
         "footer.legal": "Legal",
         "footer.privacidade": "Política de Privacidade e Cookies",
-        "footer.copy": "© 2026 Hangar Creative Hub LTDA — CNPJ 55.373.242/0001-12. Todos os direitos reservados."
+        "footer.copy": "© 2026 Hangar Creative Hub. Todos os direitos reservados."
     },
 
     en: {
+        "nav.sobre": "About",
         "nav.servicos": "Services",
         "nav.cases": "Cases",
         "nav.metodo": "Method",
@@ -234,7 +234,6 @@ const translations = {
         "sobre.eyebrow": "CREW",
         "sobre.titulo": "Who's in the cockpit",
         "sobre.lead": "Hangar Creative Hub was created to be the hub that brings communication and technology together in one place, so companies don't need to hire several loose vendors to tell their own story. The team brings journalism, design, photography and performance together under one method, so every deliverable stays consistent with the last.",
-        "sobre.lead2": "We work with companies with interstate and international ambitions, which is why the site and service already exist in Portuguese, English and Spanish.",
 
         "depo.eyebrow": "PASSENGER REPORTS",
         "depo.titulo": "What clients say",
@@ -253,16 +252,16 @@ const translations = {
         "footer.institucional": "Company",
         "footer.razaosocial": "Legal name: Hangar Creative Hub LTDA",
         "footer.cnpj": "Company ID (CNPJ): 55.373.242/0001-12",
-        "footer.endereco": "Address: Rua Frei Mansueto, 1289, Varjota, Fortaleza — CE, Brazil, 60175-157",
-        "footer.socia": "Managing partner: Marcilia Martins Cavalcante",
+        "footer.endereco": "Address: Rua Frei Mansueto, 1289 - Varjota, Fortaleza - CE, 60175-157, Brazil",
         "footer.contato": "Contact",
-        "footer.email": "Email: [insert contact email]",
+        "footer.email": "Email: contact@hangarcreativehub.com",
         "footer.legal": "Legal",
         "footer.privacidade": "Privacy & Cookies Policy",
-        "footer.copy": "© 2026 Hangar Creative Hub LTDA — Company ID 55.373.242/0001-12. All rights reserved."
+        "footer.copy": "© 2026 Hangar Creative Hub. All rights reserved."
     },
 
     es: {
+        "nav.sobre": "Nosotros",
         "nav.servicos": "Servicios",
         "nav.cases": "Casos",
         "nav.metodo": "Método",
@@ -363,7 +362,6 @@ const translations = {
         "sobre.eyebrow": "TRIPULACIÓN",
         "sobre.titulo": "Quién está en la cabina",
         "sobre.lead": "Hangar Creative Hub nació para ser el hub que reúne comunicación y tecnología en un solo lugar, evitando que las empresas necesiten contratar varios proveedores sueltos para contar su propia historia. El equipo reúne periodismo, diseño, fotografía y performance bajo un mismo método, para que cada entrega sea coherente con la anterior.",
-        "sobre.lead2": "Atendemos empresas con ambición interestatal e internacional, por eso el sitio y la atención ya nacen en portugués, inglés y español.",
 
         "depo.eyebrow": "RELATO DE PASAJEROS",
         "depo.titulo": "Lo que dicen los clientes",
@@ -382,13 +380,12 @@ const translations = {
         "footer.institucional": "Institucional",
         "footer.razaosocial": "Razón social: Hangar Creative Hub LTDA",
         "footer.cnpj": "CNPJ: 55.373.242/0001-12",
-        "footer.endereco": "Dirección: Rua Frei Mansueto, 1289, Varjota, Fortaleza — CE, Brasil, 60175-157",
-        "footer.socia": "Socia administradora: Marcilia Martins Cavalcante",
+        "footer.endereco": "Dirección: Rua Frei Mansueto, 1289 - Varjota, Fortaleza - CE, 60175-157, Brasil",
         "footer.contato": "Contacto",
-        "footer.email": "Correo: [insertar correo de contacto]",
+        "footer.email": "Correo: contact@hangarcreativehub.com",
         "footer.legal": "Legal",
         "footer.privacidade": "Política de Privacidad y Cookies",
-        "footer.copy": "© 2026 Hangar Creative Hub LTDA — CNPJ 55.373.242/0001-12. Todos los derechos reservados."
+        "footer.copy": "© 2026 Hangar Creative Hub. Todos los derechos reservados."
     }
 };
 
@@ -451,7 +448,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Scroll reveal para seções
-    document.querySelectorAll('.section, .case-card, .service-card, .testimonial, .flightpath li')
+    document.querySelectorAll('.section, .case-card, .service-card, .flightpath li')
         .forEach(el => el.classList.add('reveal'));
 
     const observer = new IntersectionObserver((entries) => {
@@ -464,6 +461,91 @@ document.addEventListener('DOMContentLoaded', function () {
     }, { threshold: 0.12 });
 
     document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    // Carrossel de fotos dos cases
+    document.querySelectorAll('.case-carousel').forEach(carousel => {
+        const track = carousel.querySelector('.case-carousel-track');
+        const slides = Array.from(carousel.querySelectorAll('.case-slide'));
+        const dotsWrap = carousel.querySelector('.case-dots');
+        const prevBtn = carousel.querySelector('.case-nav.prev');
+        const nextBtn = carousel.querySelector('.case-nav.next');
+        if (!track || slides.length === 0) return;
+
+        let current = 0;
+        let autoplayTimer = null;
+        const autoplayDelay = parseInt(carousel.dataset.autoplay, 10) || 0;
+
+        const dots = slides.map((_, i) => {
+            const dot = document.createElement('button');
+            dot.type = 'button';
+            dot.className = 'case-dot';
+            dot.setAttribute('aria-label', `Ir para imagem ${i + 1}`);
+            dot.addEventListener('click', () => goTo(i, true));
+            dotsWrap.appendChild(dot);
+            return dot;
+        });
+
+        function render() {
+            track.style.transform = `translateX(-${current * 100}%)`;
+            dots.forEach((dot, i) => dot.classList.toggle('active', i === current));
+        }
+
+        function goTo(index, userInitiated) {
+            current = (index + slides.length) % slides.length;
+            render();
+            if (userInitiated) restartAutoplay();
+        }
+
+        function next(userInitiated) { goTo(current + 1, userInitiated); }
+        function prev(userInitiated) { goTo(current - 1, userInitiated); }
+
+        function stopAutoplay() {
+            if (autoplayTimer) {
+                clearInterval(autoplayTimer);
+                autoplayTimer = null;
+            }
+        }
+
+        function startAutoplay() {
+            stopAutoplay();
+            if (autoplayDelay > 0 && slides.length > 1) {
+                autoplayTimer = setInterval(() => next(false), autoplayDelay);
+            }
+        }
+
+        function restartAutoplay() {
+            startAutoplay();
+        }
+
+        if (prevBtn) prevBtn.addEventListener('click', () => prev(true));
+        if (nextBtn) nextBtn.addEventListener('click', () => next(true));
+
+        carousel.addEventListener('mouseenter', stopAutoplay);
+        carousel.addEventListener('mouseleave', startAutoplay);
+        carousel.addEventListener('focusin', stopAutoplay);
+        carousel.addEventListener('focusout', startAutoplay);
+
+        // Swipe por toque
+        let touchStartX = null;
+        carousel.addEventListener('touchstart', (e) => {
+            touchStartX = e.touches[0].clientX;
+            stopAutoplay();
+        }, { passive: true });
+
+        carousel.addEventListener('touchend', (e) => {
+            if (touchStartX === null) return;
+            const deltaX = e.changedTouches[0].clientX - touchStartX;
+            if (Math.abs(deltaX) > 40) {
+                deltaX < 0 ? next(true) : prev(true);
+            } else {
+                startAutoplay();
+            }
+            touchStartX = null;
+        });
+
+        render();
+        startAutoplay();
+    });
 });
 
 document.addEventListener('touchstart', function () {}, { passive: true });
